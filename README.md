@@ -27,17 +27,15 @@
 ## 📦 Зависимости
 
 ```go.mod
-go 1.25.7
-
-require github.com/ilyakaznacheev/cleanenv v1.5.0
-	    github.com/BurntSushi/toml
-	    github.com/joho/godotenv
-	    github.com/samber/lo
-	    github.com/samber/slog-common
-	    github.com/samber/slog-multi
-	    golang.org/x/text
-        gopkg.in/yaml.v3 v3.0.1
-	    olympos.io/encoding/edn
+github.com/ilyakaznacheev/cleanenv v1.5.0
+github.com/BurntSushi/toml
+github.com/joho/godotenv
+github.com/samber/lo
+github.com/samber/slog-common
+github.com/samber/slog-multi
+golang.org/x/text
+gopkg.in/yaml.v3 v3.0.1
+olympos.io/encoding/edn
 
 ```
 
