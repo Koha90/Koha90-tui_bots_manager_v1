@@ -1,0 +1,29 @@
+# ===========================
+# Общие настройки приложения
+# ===========================
+name = "Bots Manager"
+version = "0.0.1"
+description = "Консольное приложение для работы с ботами."
+
+[app]
+log_level = "dev" # "local", "prod"
+
+# ===========================
+# Боты
+# ===========================
+[[bots]]
+id = "main_bot"
+token = ""
+enable = true
+[bots.storage]
+driver = "postgres"
+dsn = "postgres://user:pass@localhost:5432/suppotbot_db?sslmode=disable&search_path=public"
+
+[[bots]]
+id = "second_bot"
+token = ""
+enable = false
+[bots.storage]
+driver = "postgres"
+dsn = "postgres://user:pass@localhost:5432/suppotbot_db?sslmode=disable&search_path=public"
+

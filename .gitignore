@@ -1,0 +1,14 @@
+# Configs
+config.toml
+config.yaml
+config.json
+
+# ENV
+.env
+
+# Bin
+bin
+
+# Logs
+log
+
